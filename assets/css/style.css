@@ -1,0 +1,161 @@
+body {
+
+    max-width: 100vw;
+    margin: 0 auto;
+    align-items: center;
+    background-color: bisque;
+
+}
+
+header.titulo {
+
+    background-color: black;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff000;
+    text-align: center;
+    font-family: verdana;
+    font-size: 25px;
+    
+    
+}
+
+header.titulo h2 {
+
+    margin: 15px;
+    font-size: 20px;
+    color: red;
+    
+    }   
+
+.navbar {
+
+    background-color: #101010;
+    max-width: 100%;
+    height: 80px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+a {
+    height: 40px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+a:hover {
+
+    height: 40px;
+    color: black;
+    background-color: #fff000;
+    border-radius: 20px;
+    border: 0;
+
+
+}
+
+
+.conteiner_home {
+    max-width: 900px;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.conteiner_sobre {
+
+    color: white;
+    max-width: 100%;
+    background-color: black;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.conteiner_servicos {
+
+    
+    max-width: 100%;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.conteiner_contato {
+
+    color: white;
+    max-width: 100%;
+    background-color: black;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.para_cima {
+
+    border: 0;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 9;
+
+}
+
+.para_cima :hover {
+
+    background-color: #fff000;
+    color: black;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+
+
+    }
+
+/*  */
+.conteiner_footer {
+
+    background-color: black;
+    font-size: 20px;
+    font-family: verdana;
+    margin: 0auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+}
