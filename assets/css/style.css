@@ -79,11 +79,12 @@ a:hover {
 
 .conteiner_imagem {  
 
-
+    width: 400px;
     justify-content: center;
     align-items: center;
     align-content: center;
     height: 100vh;
+    
 
 }
 .imagem_central { 
