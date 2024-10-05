@@ -3,7 +3,7 @@ body {
     max-width: 100vw;
     margin: 0 auto;
     align-items: center;
-    background-color: bisque;
+    background-color: white;
 
 }
 
@@ -29,6 +29,7 @@ header.titulo h2 {
     
     }   
 
+
 .navbar {
 
     background-color: #101010;
@@ -45,6 +46,9 @@ a {
     padding: 20px;
     color: white;
     text-decoration: none;
+    font-family: verdana;
+    font-size: large;
+    font: bold;
 
 
 }
@@ -53,6 +57,7 @@ a:hover {
 
     height: 40px;
     color: black;
+    font-size: large;
     background-color: #fff000;
     border-radius: 20px;
     border: 0;
@@ -69,6 +74,23 @@ a:hover {
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
+}
+
+
+.conteiner_imagem {  
+
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+
+}
+.imagem_central { 
+   
+    max-width: 400px;
+    height: auto;
+
 }
 
 .conteiner_sobre {
@@ -121,8 +143,8 @@ a:hover {
     border-radius: 100%;
     height: 40px;
     width: 40px;
-    background-color: white;
-    color: black;
+    background-color: #101010;
+    color: whitesmoke;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -137,8 +159,8 @@ a:hover {
 
 .para_cima :hover {
 
-    background-color: #fff000;
-    color: black;
+    background-color: #101010;
+    color: white;
     align-items: center;
     align-content: center;
     text-align: center;
