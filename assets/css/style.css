@@ -141,6 +141,19 @@ header {
     
 
 }
+
+.conteudoSlide button {
+    margin-left: 400px;
+    font-size: 18px;
+    color: white;
+    background-color: #FF6600; 
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;   
+    border: none;
+    cursor: pointer; 
+    
+
+}
 a {
 
     height: 40px;
@@ -153,35 +166,73 @@ a {
     align-content: center;
 }
 
-.navBotoes {
 
-    display: flex;
-    gap: 5%;
+
+.esquerda {
+
+    background-color: white;
+    position: absolute;
+    margin-left: -150px;
     padding: 1vw 1.4vw;
     border-radius: 200px;
     border: none;
+    bottom: 50px ;
+    right: 200px;
+    cursor: pointer;
+
+}
+.direita {
+    background-color: white;
     position: absolute;
-    bottom: 0;
+    margin-right: 60px;
+    padding: 1vw 1.4vw;
+    border-radius: 200px;
+    border: none;
+    bottom: 50px ;
+    right: 50px;
+    cursor: pointer;
     
 
 }
 
 
 .conteiner_home {
+
+    font-family: verdana;
     max-width: 900px;
+    text-align: center;
     align-items: center;
     height: 100vh;
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
-    display: flex;
+    
     color: bisque;
 }
 
+#pesquisa {
+    border-radius: 200px;
+    border: none;
+    font-size: 60px;
+    text-align: center;
+    font-family: verdana;
+}
 
+#botaoPesquisa{ 
+
+    font-size: 25px;
+    color: white;
+    background-color: #FF6600; 
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;   
+    border: none;
+    cursor: pointer; 
+    margin-top: 40px;
+
+}
 .conteiner_imagem {  
 
-    width: 400px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -191,7 +242,8 @@ a {
 }
 .imagem_central { 
    
-    max-width: 400px;
+    margin-top: -200px;
+    max-width: 900px;
     height: auto;
 
 }
@@ -214,17 +266,150 @@ a {
 .conteiner_servicos {
 
     
+    font-family: verdana;
+    font-size: 25px;
     max-width: 100%;
     align-items: center;
+    text-align: center;
     height: 100vh;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 100px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     color: white;
 
 }
+
+.plano{ 
+    display: flex; 
+}
+
+.conteudoPlano1, .conteudoPlano2, .conteudoPlano3 {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 30px;
+    width: 380px;
+
+}
+
+.conteudoPlano1 h3 {
+background-color: #FF6600;
+font-size: 20px;
+}
+
+.conteudoPlano1 h1 {
+    
+    font-size: 35px;
+    }
+
+    .conteudoPlano1 p {
+    
+    font-size: 15px;
+    color: black;     
+   }
+
+   .conteudoPlano1 button {
+    
+    font-size: 15px;
+    color: white;
+    background-color: #FF6600; 
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;   
+    border: none;
+    cursor: pointer; 
+   }
+   .conteudoPlano1 button:hover {
+    
+    font-size: 15px;
+    color: white;
+    background-color: #ff66009f; 
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;   
+    border: none;
+    cursor: pointer; 
+   }
+
+   .conteudoPlano2 h3 {
+    background-color: #FF6600;
+    font-size: 20px;
+    }
+    
+    .conteudoPlano2 h1 {
+        
+        font-size: 35px;
+        }
+    
+        .conteudoPlano2 p {
+        
+        font-size: 15px;
+        color: black;     
+       }
+
+       .conteudoPlano2 button {
+    
+        font-size: 15px;
+        color: white;
+        background-color: #FF6600; 
+        border-radius: 50px;
+        padding: 10px 25px 10px 25px;   
+        border: none;
+        cursor: pointer; 
+        margin-top: 40px;
+       }
+       .conteudoPlano2 button:hover {
+        
+        font-size: 15px;
+        color: white;
+        background-color: #ff66009f; 
+        border-radius: 50px;
+        padding: 10px 25px 10px 25px;   
+        border: none;
+        cursor: pointer; 
+       }
+
+       .conteudoPlano3 h3 {
+        background-color: #FF6600;
+        font-size: 20px;
+        }
+        
+        .conteudoPlano3 h1 {
+            
+            font-size: 35px;
+            }
+        
+            .conteudoPlano3 p {
+            
+            font-size: 15px;
+            color: black;     
+           }
+
+           .conteudoPlano3 button {
+    
+            font-size: 15px;
+            color: white;
+            background-color: #FF6600; 
+            border-radius: 50px;
+            padding: 10px 25px 10px 25px;   
+            border: none;
+            cursor: pointer; 
+           }
+           .conteudoPlano3 button:hover {
+            
+            font-size: 15px;
+            color: white;
+            background-color: #ff66009f; 
+            border-radius: 50px;
+            padding: 10px 25px 10px 25px;   
+            border: none;
+            cursor: pointer; 
+           }
 
 .conteiner_contato {
 
@@ -280,7 +465,7 @@ a {
 /*  */
 .conteiner_footer {
 
-    background-color: black;
+    background-color: #135085;
     font-size: 20px;
     font-family: verdana;
     margin: 0auto;
@@ -288,4 +473,23 @@ a {
     padding-bottom: 15px;
     color: white;
     text-align: center;
+}
+
+/* personalização barra de rolagem */
+
+/* Para todo o scroll no navegador WebKit */
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+/* O fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background:#FF6600; 
+}
+
+/* O "polegar" da barra de rolagem (a parte que você pode arrastar) */
+::-webkit-scrollbar-thumb {
+    background-color: #00325e; 
+    border-radius: 5px;  /* Borda arredondada */
+    
 }

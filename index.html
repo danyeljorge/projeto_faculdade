@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>DESENVOLVIMENTO WEB - HTML, CSS, JAVASCRIPT, PYTHON</title>
+    <title>UNI Simulado - Os Melhores Simulados</title>
   </head>
 
   <body>
@@ -24,7 +24,7 @@
         <div class="menu">
           <a href="#sessao_home">HOME</a>
           <a href="#sessao_sobre">QUEM SOMOS</a>
-          <a href="#sessao_servicos">SERVIÇOS</a>
+          <a href="#sessao_servicos">PLANOS</a>
           <a href="#sessao_contato">CONTATOS</a>
         </div>
 
@@ -37,30 +37,48 @@
       </header>
 
       <div class="slider">
-        <div class="slide"> 
+        <div class="slide">
           <div class="conteudoSlide">
             <h1>OS MELHORES SIMULADOS</h1>
             <h2>EM UM SÓ LUGAR</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              <br>repellat minus,  reprehenderit amet distinctio et culpa, 
+              <br />repellat minus, reprehenderit amet distinctio et culpa,
             </p>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5521998452350&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0"
+              ><button>Assinar Agora</button></a
+            >
           </div>
         </div>
         <div class="navBotoes">
-          <button<img src="assets/image/seta_esquerda.jpg" alt="seta esquerda"></button>
-          <button><img src="assets/image/seta_direita.jpg" alt="seta direita"> </button>
+          <button class="esquerda">
+            <img src="assets/image/seta_esquerda.jpg" alt="seta esquerda" />
+          </button>
+          <button class="direita">
+            <img src="assets/image/seta_direita.jpg" alt="seta direita" />
+          </button>
         </div>
       </div>
     </div>
 
     <div class="conteiner_home" id="sessao_home">
       <div>
-        <h1>DESENVOLVIMENTO WEB</h1>
+        <h1>Quem passa, pesquisa aqui</h1>
+      </div>
+      <div>
+        <form>
+          <input
+            type="text"
+            id="pesquisa"
+            name="pesquisa"
+            placeholder="Pesquise o seu simulado"
+          /><br />
+          <button id="botaoPesquisa" type="submit">Pesquisar</button>
+        </form>
 
-        <h2></h2>
+        <!-- <h2></h2>
 
-        <h3>Aprendendo HTML, CSS, JavaScript e Python</h3>
         <br />
 
         <p>
@@ -97,12 +115,12 @@
           transformação para o seu negócio. ### **Estamos aqui para você.**
           Vamos juntos transformar sua comunicação digital, gerar mais vendas e
           fazer com que o seu negócio **vire viral**.
-        </h5>
+        </h5> -->
       </div>
 
       <div class="conteiner_imagem">
         <img
-          src="assets/image/programação.jpg"
+          src="assets/image/premium.jpg"
           class="imagem_central"
           alt="Imagem de um Programador escrevendo codigos"
         />
@@ -115,7 +133,47 @@
     </div>
 
     <div class="conteiner_servicos" id="sessao_servicos">
-      <h1>SERVIÇOS</h1>
+      <h1>
+        Simulado para <br /><span style="color: #ff6600">
+          todas as matérias</span
+        >
+      </h1>
+
+      <div class="plano">
+        <div class="conteudoPlano1">
+          <h2>Anual</h2>
+          <h3>Econimia 70% com o plano</h3>
+
+          <h1>R$ 9,90/mês</h1>
+          <p>Um pagamento anunal de R$ 118,80</p>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521998452350&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0"
+            ><button>Assinar</button></a
+          >
+        </div>
+        <div class="conteudoPlano2">
+          <h2>Semestral</h2>
+          <h3>Econimia 50% com o plano</h3>
+
+          <h1>R$ 15/mês</h1>
+          <p>Um pagamento semestral de R$ 90,00</p>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521998452350&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0"
+            ><button>Assinar</button></a
+          >
+        </div>
+        <div class="conteudoPlano3">
+          <h2>Mensal</h2>
+          <h3>Mais economico que a concorrêcia</h3>
+
+          <h1>R$ 29,90/mês</h1>
+          <p>Pagamento mensal de R$ 29,90, cancele quando quiser.</p>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5521998452350&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0"
+            ><button>Assinar</button></a
+          >
+        </div>
+      </div>
     </div>
 
     <div class="conteiner_contato" id="sessao_contato">
