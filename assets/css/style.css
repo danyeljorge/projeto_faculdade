@@ -1,0 +1,499 @@
+body {
+
+    max-width: 100vw;
+    margin: 0 auto;
+    align-items: center;
+    background-color:#135085 ;
+    /* rgb(71, 71, 71) */
+    
+}
+.conteiner_principal {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    } 
+
+
+header {
+
+   display: flex;
+   justify-content: space-between;
+    align-content: center;
+    background-color: #135085;
+    max-width: 100%;
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9;
+    
+ 
+}
+
+.logo img {
+
+    height: 70px;
+    padding-left: 60px;
+    
+} 
+
+.menu {
+
+    align-content: center;
+    display: flex;
+}
+
+.pesquisar {
+    padding-right: 60px;
+    align-content: center;
+        
+}
+
+.pesquisar input {
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+}
+
+.pesquisar button { 
+    background-color:#FF6600;
+    font-family: verdana;
+    font-size: large;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 5px;
+}
+ 
+.pesquisar button:hover{ 
+    background-color:#03056e;
+    font-family: verdana;
+    font-size: large;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    color: #FF6600;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("../image/slider01.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.slide {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.conteudoSlider {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
+.slider h1 {
+    padding-left: 60px;
+    color: white;
+    font-size: 32px;
+    font-family: verdana;
+}
+
+.slider h2 {
+    padding-left: 60px;
+    color: #FF6600;
+    font-size: 25px;
+    font-family: verdana;
+    margin-top: -25px;
+
+}
+
+.slider p {
+    padding-left: 60px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: verdana;
+    
+
+}
+
+.conteudoSlide button {
+    margin-left: 400px;
+    font-size: 18px;
+    color: white;
+    background-color: #FF6600; 
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;   
+    border: none;
+    cursor: pointer; 
+    
+
+}
+a {
+
+    height: 40px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: large;
+    font: bold;
+    align-content: center;
+}
+
+
+
+.esquerda {
+
+    background-color: white;
+    position: absolute;
+    margin-left: -150px;
+    padding: 1vw 1.4vw;
+    border-radius: 200px;
+    border: none;
+    bottom: 50px ;
+    right: 200px;
+    cursor: pointer;
+
+}
+.direita {
+    background-color: white;
+    position: absolute;
+    margin-right: 60px;
+    padding: 1vw 1.4vw;
+    border-radius: 200px;
+    border: none;
+    bottom: 50px ;
+    right: 50px;
+    cursor: pointer;
+    
+
+}
+
+
+.conteiner_home {
+
+    font-family: verdana;
+    max-width: 900px;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    color: bisque;
+}
+
+#pesquisa {
+    border-radius: 200px;
+    border: none;
+    font-size: 60px;
+    text-align: center;
+    font-family: verdana;
+}
+
+#botaoPesquisa{ 
+
+    font-size: 25px;
+    color: white;
+    background-color: #FF6600; 
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;   
+    border: none;
+    cursor: pointer; 
+    margin-top: 40px;
+
+}
+.conteiner_imagem {  
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    
+
+}
+.imagem_central { 
+   
+    margin-top: -200px;
+    max-width: 900px;
+    height: auto;
+
+}
+
+.box {
+    width: 100px;
+}
+
+.conteiner_sobre {
+
+    color: black;
+    max-width: 100%;
+    background-color: white;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.conteiner_servicos {
+
+    
+    font-family: verdana;
+    font-size: 25px;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+
+}
+
+.plano{ 
+    display: flex; 
+}
+
+.conteudoPlano1, .conteudoPlano2, .conteudoPlano3 {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 30px;
+    width: 380px;
+
+}
+
+.conteudoPlano1 h3 {
+background-color: #FF6600;
+font-size: 20px;
+}
+
+.conteudoPlano1 h1 {
+    
+    font-size: 35px;
+    }
+
+    .conteudoPlano1 p {
+    
+    font-size: 15px;
+    color: black;     
+   }
+
+   .conteudoPlano1 button {
+    
+    font-size: 15px;
+    color: white;
+    background-color: #FF6600; 
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;   
+    border: none;
+    cursor: pointer; 
+   }
+   .conteudoPlano1 button:hover {
+    
+    font-size: 15px;
+    color: white;
+    background-color: #ff66009f; 
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;   
+    border: none;
+    cursor: pointer; 
+   }
+
+   .conteudoPlano2 h3 {
+    background-color: #FF6600;
+    font-size: 20px;
+    }
+    
+    .conteudoPlano2 h1 {
+        
+        font-size: 35px;
+        }
+    
+        .conteudoPlano2 p {
+        
+        font-size: 15px;
+        color: black;     
+       }
+
+       .conteudoPlano2 button {
+    
+        font-size: 15px;
+        color: white;
+        background-color: #FF6600; 
+        border-radius: 50px;
+        padding: 10px 25px 10px 25px;   
+        border: none;
+        cursor: pointer; 
+        margin-top: 40px;
+       }
+       .conteudoPlano2 button:hover {
+        
+        font-size: 15px;
+        color: white;
+        background-color: #ff66009f; 
+        border-radius: 50px;
+        padding: 10px 25px 10px 25px;   
+        border: none;
+        cursor: pointer; 
+       }
+
+       .conteudoPlano3 h3 {
+        background-color: #FF6600;
+        font-size: 20px;
+        }
+        
+        .conteudoPlano3 h1 {
+            
+            font-size: 35px;
+            }
+        
+            .conteudoPlano3 p {
+            
+            font-size: 15px;
+            color: black;     
+           }
+
+           .conteudoPlano3 button {
+    
+            font-size: 15px;
+            color: white;
+            background-color: #FF6600; 
+            border-radius: 50px;
+            padding: 10px 25px 10px 25px;   
+            border: none;
+            cursor: pointer; 
+           }
+           .conteudoPlano3 button:hover {
+            
+            font-size: 15px;
+            color: white;
+            background-color: #ff66009f; 
+            border-radius: 50px;
+            padding: 10px 25px 10px 25px;   
+            border: none;
+            cursor: pointer; 
+           }
+
+.conteiner_contato {
+
+    color: black;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.para_cima {
+
+    border: 0;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    background-color: #101010;
+    color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 9;
+
+}
+
+.para_cima :hover {
+
+    background-color: #101010;
+    color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 0;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    z-index: 9;
+
+
+    }
+
+/*  */
+.conteiner_footer {
+
+    background-color: #135085;
+    font-size: 20px;
+    font-family: verdana;
+    margin: 0auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+/* personalização barra de rolagem */
+
+/* Para todo o scroll no navegador WebKit */
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+/* O fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background:#FF6600; 
+}
+
+/* O "polegar" da barra de rolagem (a parte que você pode arrastar) */
+::-webkit-scrollbar-thumb {
+    background-color: #00325e; 
+    border-radius: 5px;  /* Borda arredondada */
+    
+}
