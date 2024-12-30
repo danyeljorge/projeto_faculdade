@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script> <!--ScrollTrigger-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script> <!--ScrollTo-->
     <title>UNI Simulado - Os Melhores Simulados</title>
   </head>
 
@@ -23,12 +25,12 @@
           </a>
         </div>
 
-        <div class="menu">
-          <a href="#sessao_home">HOME</a>
-          <a href="#sessao_sobre">QUEM SOMOS</a>
-          <a href="#sessao_servicos">PLANOS</a>
-          <a href="#sessao_contato">CONTATOS</a>
-        </div>
+        <nav class="menu">
+          <a href="#sessao1" id="link1">HOME</a>
+          <a href="#sessao2" id="link2">QUEM SOMOS</a>
+          <a href="#sessao3" id="link3">PLANOS</a>
+          <a href="#sessao4" id="link4">CONTATOS</a>
+        </nav>
 
         <div class="pesquisar">
           <form>
@@ -64,7 +66,7 @@
       </div>
     </div>
 
-    <div class="conteiner_home" id="sessao_home">
+    <div class="conteiner_home" id="sessao1">
       <div>
         <h1>Quem passa, pesquisa aqui</h1>
       </div>
@@ -129,12 +131,12 @@
       </div>
     </div>
 
-    <div class="conteiner_sobre" id="sessao_sobre">
+    <div class="conteiner_sobre" id="sessao2">
       <h1>QUEM SOMOS</h1>
       <img src="./assets/image/logo_uni_simulado.png" class="box"></p>
     </div>
 
-    <div class="conteiner_servicos" id="sessao_servicos">
+    <div class="conteiner_servicos" id="sessao3">
       <h1>
         Simulado para <br /><span style="color: #ff6600">
           todas as matérias</span
@@ -178,7 +180,7 @@
       </div>
     </div>
 
-    <div class="conteiner_contato" id="sessao_contato">
+    <div class="conteiner_contato" id="sessao4">
       <h1>CONTATOS</h1>
     </div>
 
