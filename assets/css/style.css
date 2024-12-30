@@ -4,9 +4,20 @@ body {
     margin: 0 auto;
     align-items: center;
     background-color:#135085 ;
+    verflow-x: hidden;
     /* rgb(71, 71, 71) */
     
 }
+
+@media (max-width: 1024px) and (min-width:768px) {
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+
 .conteiner_principal {
 
     width: 100%;
@@ -25,7 +36,7 @@ header {
     align-content: center;
     background-color: #135085;
     max-width: 100%;
-    position: absolute;
+    position: fixed;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -43,6 +54,7 @@ header {
 
 .menu {
 
+    margin-top: 15px;
     align-content: center;
     display: flex;
 }
@@ -57,6 +69,7 @@ header {
     border-radius: 20px;
     height: 30px;
     border: none;
+    outline: none;
 }
 
 .pesquisar button { 
@@ -84,6 +97,8 @@ header {
     cursor: pointer;
     padding-right: 20px;
     padding-left: 20px;
+    border: none;
+    outline: none;
     
 }
 
@@ -216,6 +231,7 @@ a {
     font-size: 60px;
     text-align: center;
     font-family: verdana;
+    outline: none;
 }
 
 #botaoPesquisa{ 
@@ -277,7 +293,7 @@ a {
     text-align: center;
     height: 100vh;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 10%;
     padding-right: 10%;
